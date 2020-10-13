@@ -55,4 +55,4 @@ def current_player(board)
 end
 
 def turn(board)
-  puts "Please enter "
+  puts "Please enter n"
