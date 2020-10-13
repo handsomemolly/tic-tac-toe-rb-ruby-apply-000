@@ -28,4 +28,4 @@ def move(board, index, character = "X")
   board[index] = char
 end
 
-def position_taken?()
+def position_taken?(board, index)
