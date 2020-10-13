@@ -19,36 +19,18 @@ def display_board(board)
  puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-
 def input_to_index(user_input)
   user_input.to_i - 1
 end
 
-def move(board, index, character = "X")
-  board[index] = char
+def move(index, current_player = "X")
+  board[index] = current_player
 end
 
+def position_taken?(index)
+  !(board[index].nil? || board[index] == " ")
+end
 
-def valid_move(board, index)
- def position_taken?(array, ind)
-   if array[ind] == " " || array[ind] == "" || or array[ind] == nil
-     return false
-   else
-     return true
-   end
- end
- def on_board?(num)
-   if num.between(0, 8) == true
-     return true
-   else
-     return false
-   end
- end
- 
- if (position_taken?(board_index)) == false && (on_board?(index) == true)
-   return true
- else
-   return false
- end
- 
+def valid_move?(index)
+  index.between?(0,8) && !position_taken?(index)
 end
