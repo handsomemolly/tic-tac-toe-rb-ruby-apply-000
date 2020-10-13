@@ -2,29 +2,9 @@
   "RSpec": {
     "coverage": {
       "/home/kendig/tic-tac-toe-rb-ruby-apply-000/lib/tic_tac_toe.rb": [
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        1,
-        6,
-        6,
-        6,
-        6,
-        6,
-        null,
-        1
+
       ]
     },
-    "timestamp": 1602628923
+    "timestamp": 1602630005
   }
 }
