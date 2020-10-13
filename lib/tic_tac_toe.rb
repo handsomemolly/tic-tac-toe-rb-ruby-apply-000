@@ -45,4 +45,4 @@ def valid_move(board, index)
    end
  end
  
- if (position_taken?(board_index)) == false && (on_board?(index)) == true
+ if (position_taken?(board_index)) == false && (on_board?(index) == true)
