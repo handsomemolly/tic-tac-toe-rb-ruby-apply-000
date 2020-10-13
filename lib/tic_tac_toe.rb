@@ -28,12 +28,12 @@ def move(board, index, character = "X")
   board[index] = char
 end
 
-def position_taken?(board, index)
-  if board[index] == " " || board[index] == "" || or board[index] == nil
+
+def valid_move(board, index)
+def position_taken?(array, ind)
+  if array[ind] == " " || array[ind] == "" || or array[ind] == nil
     return false
   else
     return true
   end
 end
-
-def valid_move(board, index)
