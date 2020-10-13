@@ -112,7 +112,7 @@ def winner (board)
   if index == false
     return nil
   else
-    if 
+    if board()
   
   
   
