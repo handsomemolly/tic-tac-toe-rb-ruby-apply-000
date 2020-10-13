@@ -38,4 +38,4 @@ def valid_move(board, index)
    end
  end
  def on_board?(num)
-   if num.between
+   if num.between(0, 8)
