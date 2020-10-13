@@ -55,4 +55,4 @@ def current_player(board)
 end
 
 def turn(board)
-  puts "Please enter n"
+  puts "Please choose a number 1 - 9"
