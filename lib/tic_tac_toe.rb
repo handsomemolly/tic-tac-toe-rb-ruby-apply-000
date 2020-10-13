@@ -46,3 +46,6 @@ def valid_move(board, index)
  end
  
  if (position_taken?(board_index)) == false && (on_board?(index) == true)
+   return true
+ else
+   return false
