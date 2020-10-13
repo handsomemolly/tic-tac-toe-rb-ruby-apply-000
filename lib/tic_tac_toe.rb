@@ -27,3 +27,5 @@ end
 def move(board, index, character = "X")
   board[index] = char
 end
+
+def position_taken?()
