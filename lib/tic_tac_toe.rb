@@ -29,4 +29,4 @@ def move(board, index, character = "X")
 end
 
 def position_taken?(board, index)
-  if 
+  if board[index] == " " || board[index] == "" || or board[index] == nil
