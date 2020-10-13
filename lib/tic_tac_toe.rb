@@ -50,3 +50,6 @@ def current_player(board)
     player == "X"
   else
     player == "O"
+  end
+  return player
+end
