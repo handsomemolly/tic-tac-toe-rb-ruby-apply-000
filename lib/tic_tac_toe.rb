@@ -37,3 +37,4 @@ def position_taken?(array, ind)
     return true
   end
 end
+def
