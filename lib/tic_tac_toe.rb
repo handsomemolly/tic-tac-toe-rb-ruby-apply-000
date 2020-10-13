@@ -122,7 +122,8 @@ end
 
 def play(board)
   until over?(board) == true
-  
+  turn(board)
+else
   
   
   
